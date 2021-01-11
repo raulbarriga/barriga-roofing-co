@@ -1,0 +1,400 @@
+header {
+  padding: 0 60px;
+  height: 394px;
+  background-color: rgba(255, 255, 255, 1);
+  img {
+    height: 108px;
+    width: 232px;
+    float: right;
+  }
+  h1 {
+    text-align: center;
+    clear: right;
+  }
+  h2 {
+    text-align: center;
+    clear: right;
+    font-style: italic;
+  }
+  .bullets {
+    display: flex;
+    justify-content: center;
+  }
+  .contact {
+    text-align: right;
+    span {
+      display: block;
+    }
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    ul {
+      list-style: none;
+      display: contents;
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
+
+.about-me {
+  height: 720px;
+  width: 100%;
+  margin-bottom: 66px;
+  background-color: rgb(247, 247, 247);
+
+  .container {
+    display: flex;
+    padding: 10px 80px 0 80px;
+    height: 620px;
+    width: 1280px;
+    //   div {
+    //     padding-top: 10px;
+    //     height: 620px;
+    //     width: 1280px
+    // }
+    div {
+      height: 620px;
+      width: 1280px;
+      img {
+        height: 620px;
+        width: 640px;
+      }
+    }
+    .whoIAm {
+      height: 620px;
+      h1 {
+        margin: 147px 0 42px 0;
+        text-align: center;
+        font: normal normal normal 40px/1.35em "playfair display", serif;
+        span {
+          color: rgb(219, 200, 190);
+        }
+      }
+      p {
+        &:nth-of-type(1) {
+          margin: 0 0 32px 0;
+          font: normal normal normal 18px/1.75em "playfair display", serif;
+          text-align: center;
+        }
+        &:nth-of-type(2) {
+          text-align: center;
+          font: normal normal normal 15px/1.875em avenir-lt-w01_35-light1475496,
+            sans-serif;
+          width: 460px;
+          margin: 0 0 0 75px;
+        }
+      }
+    }
+  }
+}
+
+.services {
+  height: 740px;
+
+  section {
+    &:nth-of-type(1) {
+      display: flex;
+      width: 100%;
+      height: 380px;
+
+      img {
+        width: 480px;
+        height: 380px;
+        object-fit: cover;
+      }
+    }
+
+    &:nth-of-type(2) {
+      .paragraphs {
+        display: flex;
+        .serviceColumn {
+          height: 360px;
+          &:nth-of-type(1) {
+            background-color: rgba(247, 247, 247, 1);
+            width: 479.02px;
+            h2 {
+              font: normal normal normal 22px/1.41em "playfair display", serif;
+              text-align: center;
+              margin: 56px 0 34px 0;
+            }
+            div {
+              display: flex;
+              justify-content: center;
+              p {
+                text-align: center;
+                line-height: 1.875em;
+                font: normal normal normal 15px/1.875em
+                    avenir-lt-w01_35-light1475496,
+                  sans-serif;
+                font-size: 15px;
+                width: 300px;
+                height: 140px;
+                padding: 0;
+                margin: 0;
+              }
+            }
+          }
+          &:nth-of-type(2) {
+            background-color: rgba(219, 200, 190, 1);
+            width: 480.48px;
+            h2 {
+              font: normal normal normal 22px/1.41em "playfair display", serif;
+              text-align: center;
+              margin: 56px 0 34px 0;
+            }
+            div {
+              display: flex;
+              justify-content: center;
+              p {
+                text-align: center;
+                line-height: 1.875em;
+                font: normal normal normal 15px/1.875em
+                    avenir-lt-w01_35-light1475496,
+                  sans-serif;
+                font-size: 15px;
+                width: 300px;
+                height: 168px;
+                padding: 0;
+                margin: 0;
+              }
+            }
+          }
+          &:nth-of-type(3) {
+            background-color: rgba(247, 247, 247, 1);
+            width: 480.48px;
+            h2 {
+              font: normal normal normal 22px/1.41em "playfair display", serif;
+              text-align: center;
+              margin: 56px 0 34px 0;
+            }
+            div {
+              display: flex;
+              justify-content: center;
+              p {
+                text-align: center;
+                line-height: 1.875em;
+                font: normal normal normal 15px/1.875em
+                    avenir-lt-w01_35-light1475496,
+                  sans-serif;
+                font-size: 15px;
+                width: 300px;
+                height: 168px;
+                padding: 0;
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// .gallery {
+
+// }
+
+.form-section {
+  height: 1340px;
+  background-color: rgb(247, 247, 247);
+  .form-img {
+    margin: 0 0 57px 0;
+    height: 560px;
+    object-fit: cover;
+  }
+  .form-title {
+    h2 {
+      font: normal normal normal 40px/1.35em "playfair display", serif;
+      color: #dbc8be; // --color-18
+      margin: 0 0 30px 0;
+      text-align: center;
+    }
+  }
+
+  .form-subtitle {
+    p {
+      font: normal normal normal 15px/1.875em avenir-lt-w01_35-light1475496,
+        sans-serif;
+      color: #1e2025; // --color-15
+      text-align: center;
+      line-height: 1.875em;
+      font-size: 15px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  .form-container {
+    text-align: center;
+    form {
+      display: inline-block;
+      width: 940px;
+      height: 589px;
+      div {
+        &:nth-of-type(3) {
+          // email div
+          display: flex;
+          float: left;
+          width: 465px;
+        }
+        &:nth-of-type(4) {
+          // phone div
+          display: flex;
+          width: 465px;
+          float: right;
+        }
+        &:not(:nth-of-type(5)) {
+          // come back to this (needs correcting
+          margin-bottom: 10px;
+        }
+      }
+      .inputs {
+        font: normal normal normal 15px/1.875em avenir-lt-w01_35-light1475496,
+          sans-serif;
+        background-color: rgb(247, 247, 247);
+        width: 925px;
+        height: 58px;
+        padding: 3px 3px 3px 12px;
+        border-width: 0px 0px 1px 0px;
+        outline: 0;
+
+        &:hover {
+          border-width: 1px 1px 1px 1px;
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      .textArea {
+        margin-bottom: 44px;
+        textarea {
+          resize: none;
+          height: 191px;
+          padding-top: 0.75em;
+        }
+      }
+
+      .btn {
+        margin-bottom: 32px;
+        text-align: center;
+        transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+        button {
+          width: 195px;
+          height: 70px;
+          font: normal normal normal 18px/1.75em "playfair display", serif;
+          color: #fff;
+
+          background-color: rgb(30, 32, 37);
+          cursor: pointer;
+          transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+          box-shadow: none;
+
+          &:focus {
+            outline: none;
+            transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+          }
+
+          &:hover {
+            background-color: rgba(30, 32, 37, 0.5);
+            border: none;
+            transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+          }
+        }
+      }
+
+      .fadeOut {
+        animation: fade-in-keyframes 4s ease-in 0.1s forwards;
+        visibility: visible !important;
+      }
+
+      .btn-msg {
+        margin-bottom: 24px;
+        visibility: hidden;
+        p {
+          font: normal normal normal 18px/1.75em "playfair display", serif;
+          text-align: center;
+          font-size: 18px;
+          color: rgb(30, 32, 37);
+        }
+      }
+      @keyframes fade-in-keyframes {
+        from {
+          opacity: 1;
+        }
+        to {
+          opacity: 0;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: #1e2025;
+
+  .container {
+    height: 180px;
+
+    a {
+      color: inherit;
+    }
+    .title {
+      margin: 48px 0 24px 0;
+      text-align: center;
+      p {
+        margin: 0;
+        font: normal normal normal 22px/1.41em "playfair display", serif;
+        font-size: 22px;
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+
+    .email {
+      text-align: center;
+      p {
+        line-height: 1.875em;
+        font-size: 15px;
+        margin: 0;
+
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+
+    .phone {
+      text-align: center;
+      margin-bottom: 44px;
+      p {
+        line-height: 1.875em;
+        font-size: 15px;
+        margin: 0;
+      }
+    }
+
+    .copyright {
+      text-align: center;
+      p {
+        line-height: 1.79em;
+        font-size: 14px;
+        margin: 0;
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
