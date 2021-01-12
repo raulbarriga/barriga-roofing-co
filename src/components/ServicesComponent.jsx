@@ -10,13 +10,13 @@ const ServicesComponent = () => {
       <section className="services">
         <div>
           <section>
-            <div>
+            <div className='div1'>
               <img src={servicesImage1} alt={servicesImage1} />
             </div>
-            <div>
+            <div className='div2'>
               <img src={servicesImage2} alt={servicesImage2} />
             </div>
-            <div>
+            <div className='div3'>
               <img src={servicesImage3} alt={servicesImage3} />
             </div>
           </section>
