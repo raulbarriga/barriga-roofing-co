@@ -39,6 +39,7 @@ header {
         li {
           font: normal normal normal 18px/1.75em "playfair display", serif;
           line-height: 1.3em;
+          // I dont have the avenir font since it costs, but the current look is still okay
           font-family: avenir-lt-w01_35-light1475496, sans-serif;
           font-size: 15px;
           letter-spacing: 0.03em;
@@ -449,6 +450,7 @@ footer {
     .email {
       text-align: center;
       p {
+        font: normal normal normal 15px/1.875em avenir-lt-w01_35-light1475496,sans-serif;
         line-height: 1.875em;
         font-size: 15px;
         margin: 0;
@@ -463,6 +465,7 @@ footer {
       text-align: center;
       margin-bottom: 44px;
       p {
+        font: normal normal normal 15px/1.875em avenir-lt-w01_35-light1475496,sans-serif;
         line-height: 1.875em;
         font-size: 15px;
         margin: 0;
@@ -472,6 +475,7 @@ footer {
     .copyright {
       text-align: center;
       p {
+        font: normal normal normal 14px/1.79em avenir-lt-w01_35-light1475496,sans-serif;
         line-height: 1.79em;
         font-size: 14px;
         margin: 0;

@@ -40,10 +40,10 @@ const HeaderComponent = () => {
                 <a href="#services">SERVICES</a>
               </li>
               <li>
-                <a href="#media-gallery">MEDIA GALLERY</a>
+                <a href="#pro-gallery-default-dom-id">MEDIA GALLERY</a>
               </li>
               <li>
-                <a href="#free-estimate">FREE ESTIMATE</a>
+                <a href="#form-section">FREE ESTIMATE</a>
               </li>
             </ul>
           </nav>

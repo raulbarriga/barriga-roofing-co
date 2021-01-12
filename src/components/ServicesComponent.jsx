@@ -7,7 +7,7 @@ import servicesImage3 from "../assets/images/servicesImage3.jpg";
 const ServicesComponent = () => {
   return (
     <>
-      <section className="services">
+      <section id='services' className="services">
         <div>
           <section>
             <div className='div1'>
